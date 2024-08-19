@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>survey-form.freecodecamp.rocks</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header>
+      <h1 id="title">freeCodeCamp Survey Form</h1>
+      <p id="description">Thank you for taking the time to help us improve the platform</p>
+    </header>
+    <main>
+      <form id="survey-form">
+        <label id="name-label" for="name">Name</label>
+        <input class="space input" id="name" type="text" placeholder="Enter your name">
+        <label id="email-label" for="email">Email</label>
+        <input class="space input" id="email" type="email" placeholder="Enter your Email">
+        <label id="number-label" for="number">Age(optional)</label>
+        <input class="space input" id="number" type="number" min="10" max="99" placeholder="Age">
+
+        <p>What is your favorite feature of freeCodeCamp?</p>
+        <select class="space input" id="dropdown">
+          <option>Challenges</option>
+          <option>Projects</option>
+          <option>Community</option>
+          <option>Open Source</option>
+        </select>
+        
+        <p>What would you like to see improved? (Check all that apply)</p>
+        <div>
+          <input class="inline" type="checkbox" id="front-end-projects" value="front-end-projects">
+          <label for="front-end-projects">Front-end Projects</label>
+        </div>
+
+        <div>
+          <input class="inline" type="checkbox" id="back-end-projects" value="back-end-projects">
+          <label for="back-end-projects">Back-end Projects</label>
+        </div>
+
+        <div>
+          <input class="inline" type="checkbox" id="data-visualizations" value="data-visualizations">
+          <label for="data-visualizations">Data Visualization</label>
+        </div>
+
+        <div>
+          <input class="inline" type="checkbox" id="challenges" value="challenges">
+          <label for="challenges">Challenges</label>
+        </div>
+
+        <div>
+          <input class="inline" type="checkbox" id="open-Source-Community" value="open-Source-Community">
+          <label for="open-Source-Community">Open Source Community</label>
+        </div>
+
+        <div>
+          <input class="inline" type="checkbox" id="gitter-help-rooms" value="gitter-help-rooms">
+          <label for="gitter-help-rooms">Gitter help rooms</label>
+        </div>
+
+        <div>
+          <input class="inline" type="checkbox" id="videos" value="videos">
+          <label for="videos">Videos</label>
+        </div>
+
+        <div>
+          <input class="inline" type="checkbox" id="City-Meetups" value="City-Meetups">
+          <label for="City-Meetups">City Meetups</label>
+        </div>
+
+        <div>
+          <input class="inline" type="checkbox" id="wiki" value="wiki">
+          <label for="wiki">Wiki</label>
+        </div>
+
+        <div>
+          <input class="inline" type="checkbox" id="forum" value="forum">
+          <label for="forum">Forum</label>
+        </div>
+
+        <div class="space">
+          <input class="inline" type="checkbox" id="additional-courses" value="additional-courses">
+          <label for="additional-courses">Additional Courses</label>
+        </div>
+
+        <p>Any comments or suggestions?</p>
+        <textarea class="space input" name="textarea" id="textarea" placeholder="Enter your comment here..."></textarea>
+
+        <button id="submit" type="submit">Submit</button>
+
+      </form>
+    </main>
+  </body>
+</html>

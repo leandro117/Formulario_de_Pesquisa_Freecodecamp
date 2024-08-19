@@ -1,0 +1,74 @@
+/*configurações globais da pagina*/
+*{
+    font-size: 30px;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*configurações do corpo da pagina*/
+body{
+    width: 100%;
+    height: 100%;
+    background: #1b1b32;
+    background-image: linear-gradient(115deg, rgba(58, 58, 158, 0.8),
+    rgba(136, 136, 206, 0.7)
+  ), url("img/survey-form-background.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/*configurações do cabeçalho*/
+
+#title{
+  margin-top: 60px;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  font-weight: lighter;  
+}
+
+#description{
+    font-size: 27px;
+    font-weight: 200;
+    margin-bottom: 30px;
+}
+
+#title, #description{
+    text-align: center;
+    color: white;
+    font-style: italic;
+}
+
+/*configurações do formulário*/
+form#survey-form{
+    background-color: #1b1b32b6;
+    padding: 30px;
+    width: 80%;
+    margin: auto;
+    color: white;
+}
+
+input, button{
+    display: block;
+}
+
+.inline{
+    display: inline;
+}
+
+.space{
+    margin-bottom: 30px;
+}
+
+.input{
+    width: 100%;
+}
+
+#submit{
+    text-align: center;
+    width: 100%;
+    height: 60px;
+    background-color: rgba(0, 255, 0, 0.562);
+    color: white;
+}
